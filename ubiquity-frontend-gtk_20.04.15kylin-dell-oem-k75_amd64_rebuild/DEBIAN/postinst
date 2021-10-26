@@ -1,0 +1,8 @@
+#! /bin/sh
+set -e
+
+if [ -e /usr/share/ubiquity/license/run.sh ];then
+  chmod 755 /usr/share/ubiquity/license/run.sh
+fi
+
+exit 0

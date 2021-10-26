@@ -1,0 +1,14 @@
+Package: ubiquity-frontend-gtk
+Source: ubiquity
+Version: 20.04.15kylin-dell-oem-k75
+Architecture: amd64
+Maintainer: Ubuntu Installer Team <ubuntu-installer@lists.ubuntu.com>
+Installed-Size: 784
+Depends: busybox-static | busybox, gir1.2-gtk-3.0 (>= 3.20), gir1.2-nma-1.0, gir1.2-pango-1.0, gir1.2-soup-2.4, gir1.2-timezonemap-1.0, gir1.2-vte-2.91, gir1.2-webkit2-4.0, gir1.2-xkl-1.0, iso-codes, metacity | ukwm | marco | xfwm4 | matchbox-window-manager | lubuntu-default-settings | openbox | gnome-shell | budgie-core, python3-cairo, python3-dbus, python3-gi, python3-gi-cairo, sensible-utils, python3-pwquality, ubiquity (= 20.04.15kylin-dell-oem-k75), python3:any (>= 3.1~), libglib2.0-0 (>= 2.37.3)
+Suggests: gnome-control-center | feh
+Provides: ubiquity-frontend-20.04.15kylin-dell-oem-k75
+Section: admin
+Priority: optional
+Description: GTK+ frontend for Ubiquity live installer
+ This package provides a GTK+-based user interface frontend for the Ubiquity
+ live CD installer.
