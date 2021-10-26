@@ -1,0 +1,7 @@
+F ASCII.PF2;1                                                                                                                                                                                                     	ascii.pf2
+F EFI.IMG;1                                                                                                                                                                                                       	efi.img
+F EURO.PF2;1                                                                                                                                                                                                      	euro.pf2
+F GRUB.CFG;1                                                                                                                                                                                                      	grub.cfg
+F SPLASH.TGA;1                                                                                                                                                                                                    	splash.tga
+F UNICODE.PF2;1                                                                                                                                                                                                   	unicode.pf2
+D X86_64_EFI                                                                                                                                                                                                      	x86_64-efi
