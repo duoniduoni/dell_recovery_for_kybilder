@@ -7,3 +7,5 @@
 5 mv casper/initrd.lz  casper/initrd
   
 6 boot目录替换
+
+7 在squash中安装包: apt-get install wamerican wbritish gnome-session-bin

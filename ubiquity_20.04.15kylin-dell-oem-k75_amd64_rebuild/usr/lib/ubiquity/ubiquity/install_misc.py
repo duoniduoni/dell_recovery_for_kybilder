@@ -214,6 +214,13 @@ def record_installed(pkgs):
     """Record which packages we've explicitly installed so that we don't
     try to remove them later."""
 
+    for pkg in pkgs:
+        syslog.syslog(syslog.LOG_ERR, "fucking life record_insralled: %s" % pkg)
+
+    import traceback
+    for line in traceback.format_stack():
+        syslog.syslog(syslog.LOG_ERR, "fucking life trace: %s" % line.strip())
+
     record_file = "/var/lib/ubiquity/apt-installed"
     if not os.path.exists(os.path.dirname(record_file)):
         os.makedirs(os.path.dirname(record_file))
